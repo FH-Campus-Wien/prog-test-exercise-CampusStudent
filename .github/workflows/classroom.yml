@@ -19,7 +19,7 @@ jobs:
       with:
         test-name: say Hello World!
         setup-command: ''
-        command: gradle test sayHelloWorld
+        command: gradle test --tests at.ac.fhcampuswien.AppTest.sayHelloWorld
         timeout: 1
         max-score: 10
     - name: Autograding Reporter
